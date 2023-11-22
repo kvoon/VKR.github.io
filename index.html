@@ -25,24 +25,30 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Hello, I am Ken</h1>
-								<p>A multidisciplinary analyst with 2+ years of cumulative experience in data and business analysis, consulting, and hands-on development. 
-								   <br>
-								   <br>
-									Based in Sydney, NSW, Australia.</p>
+								<h3>A Multidisciplinary Analyst with 2+ years of combined expertise in data and business analysis, consulting, and software development.</h3>
+								<p>Based in Sydney, NSW, Australia.</p>
 								<ul class="icons">
 									<li><a href="https://www.linkedin.com/in/ken-ren/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/kvoon" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</div>
 						</div>
-						<h3>Projects</h3>
+						<h2>Projects</h2>
+						<h3>Data and Business Analysis</h3>
 						<nav>
 							<ul>
 								<!-- <li><a href="#intro">Intro</a></li> -->
-								<li><a href="#project1">COVID-19 Deadliness EDA (Malaysia)</a></li>
+								<li><a href="#project1">COVID-19 EDA</a></li>
 								<li><a href="#project2">Cafe Sales Predictor</a></li>
-								<!-- <li><a href="#contact">Contact</a></li> -->
-								<li><a href="#elements">Elements</a></li>
+								<li><a href="#project3">Walkability Analysis</a></li>
+							</ul>
+						</nav>
+						<h3>Programming</h3>
+						<nav>
+							<ul>
+								<!-- <li><a href="#intro">Intro</a></li> -->
+								<li><a href="#project1">Project 1</a></li>
+								<li><a href="#project2">Project 2</a></li>
 							</ul>
 						</nav>
 					</header>
@@ -58,31 +64,53 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 							</article> -->
 
-						<!-- Work -->
+						<!-- Project 1 -->
+						
+						<article id="project1">
+							<h2 class="major">COVID-19 Deadliness EDA</h2>
+							<span class="image main"><img src="https://hrmasia.com/wp-content/uploads/2020/04/143084836_m.jpg" alt="COVID-19 and Malaysia Banner" /></span>
+
+							<p>This project was an individual component of a university group assignment, wherein each member was tasked with conducting an individual analysis of COVID data to ascertain the "Deadliness of COVID-19." 
+								Every member was tasked with selecting a particular country and a variable for investigation, examining how it influenced the deadliness of COVID-19 in the chosen nation.
+								In my case, I choose <b>Malaysia</b> and opted to investigate the <b>Stringency Index</b> as the variable of interest. 
+								The stringency index quantifies the strictness of government policies, in response to crises like the COVID-19 pandemic.</p>
+							<p>The Process Notebook encompasses Data Engineering, EDA processes, and custom functions, including two for generating frequently used graphs to enhance code reusability and another for populating a Pandas data frame with random values. The latter is utilised to test the reliability of reused functions in the broader Product Notebook, promoting modularity.</p>
+							<p> <b>Note:</b> the findings and values presented in the written analysis may differ from the generated graphs and tables due to daily updates in the dataset during the creation of the Jupyter Notebook. <i>Therefore, the values and findings present in the written analysis only accurately represent the data as it stood during the fourth quarter (Q4) of 2020.</i></p>
+
+							<p class="align-center"><a href="https://github.com/kvoon/Process_Notebook_COVID/blob/main/Ken_processnotebook.ipynb">Click here to view the project</p></a>
+
+							<h6>Skills: Data Engineering, EDA, Data Visualisation, Python, Pandas.</h6>
+						
+						</article>
+						<!-- Project 2 -->
+
 							<article id="project2">
 								<h2 class="major">Cafe Sales Predictor</h2>
 								<span class="image main"><img src="https://blog-assets.lightspeedhq.com/img/2022/03/325f210b-blog_how-to-grow-coffee-shop-sales_1200x628.png" alt="Coffee Sales Banner" /></span>
-								<p>In this project, we were provided with an SQLite dataset containing transaction data for a fictitious pop-up cafe located at the University of Sydney's Camperdown campus. Our main objectives were to address two key questions: </p>
+								<p> This project used an SQLite dataset with transaction data from a pop-up cafe at the University of Sydney's Camperdown campus. The cafe owners wanted to answer two main questions with this project: </p>
 								<ol>
 									<li>Identify the factors that influence the average hourly sales at the cafe.</li>
 									<li>Select an appropriate statistical model and investigate the feasibility of creating a predictive model to forecast average hourly sales based on the available dataset.</li>
 								</ol>
-								<p>The project encompasses a Jupyter Notebook and an associated project report, which comprehensively documents our analysis and model development journey. It also includes solutions to both of these questions, providing a detailed account of our findings and methodology.</p>
-								<h5 class="align-center"><a href='https://github.com/kvoon/CafeSalesPredictor'>See project</a></h5>
+								<p>The project encompasses a Jupyter Notebook and an associated project report, which comprehensively documents the analysis and model development journey. It also includes solutions to both of these questions, providing a detailed account of the findings and methodologies used.</p>
+								<p class="align-center"><a href='https://github.com/kvoon/CafeSalesPredictor'>Click here to view the project</a></p>
 								<h6>Skills: SQL, Python, Pandas, Data Visualisation, Data Preperation, Buisness Analysis.</h6>
 							</article>
-						<!-- About -->
-							<article id="project1">
-								<h2 class="major">COVID-19 Deadliness EDA</h2>
-								<span class="image main"><img src="https://hrmasia.com/wp-content/uploads/2020/04/143084836_m.jpg" alt="COVID-19 and Malaysia Banner" /></span>
-								<p>This project was a part of a university group assignment where each member was assigned an individual analysis of COVID data to identify the “Deadliness of COVID-19” in a specific country. I focused on analysing COVID data for Malaysia. The individual components were later combined into a Product Notebook for the final submission.</p>
-								<p>The Process Notebook includes a Data Engineering and EDA process and several custom functions I created. Two functions are used to generates frequently used graphs to improve code reusability, and the other was to populate a Pandas data frame with random values, ensuring the reliability of reused functions in the broader Product Notebook and promoting modularity.</p>
-								<p> <b>Note:</b> the findings and values presented in the written analysis may differ from the generated graphs and tables due to daily updates in the dataset during the creation of the Jupyter Notebook. <i>Therefore, the values and findings present in the written analysis only accurately represent the data as it stood during the fourth quarter (Q4) of 2020.</i></p>
-								<h6>Skills: Data Engineering, EDA, Data Visualisation, Python, Pandas.</h6>
-							</article>
+
+						<!-- Project 2 -->
+
+						<article id="project3">
+							<h2 class="major">Walkability Analysis</h2>
+							<span class="image main"><img src="https://res.cloudinary.com/dz9xllyip/image/fetch/c_scale,w_580,dpr_2.0,q_auto:good/https://s3.ap-southeast-2.amazonaws.com/www.urban.com.au/PO_images/articles/1_SYDNEY.jpg" alt="Sydney CBD Image" /></span>
+							<p>The project was undertaken originally as part of a Data Science university group project, done as a 2-person team.</p>
+							<p>The objective of this assignment waas to develop a walkability score for Sydney neighborhoods based on factors like density, destinations, distance to transport, 
+								and additional data like cafes, cycling infrastructure, public transport connectivity, and greenery. Analyze the correlation between walkability scores, median income, and average monthly rent.</p>
+							<p class="align-center"><a href='https://colab.research.google.com/drive/163x4V558u1R2UXPBwix0YUbmQPQk9pVU?usp=sharing'>Click here to view the project</a></p>
+							<h6>Skills: SQL (PostgreSQL), Python, Pandas, Data Visualisation</h6>
+						</article>
 
 						<!-- Contact -->
-							<!-- <article id="contact">
+							<!-- <article id="project3">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
 									<div class="fields">
